@@ -1,0 +1,32 @@
+:root{
+  --base03:#002b36;--base02:#073642;--base01:#586e75;--base00:#657b83;
+  --base0:#839496;--base1:#93a1a1;--base2:#eee8d5;--base3:#fdf6e3;
+  --yellow:#b58900;--orange:#cb4b16;--red:#dc322f;--violet:#6c71c4;
+  --blue:#268bd2;--cyan:#2aa198;--green:#859900;
+  --bg:var(--base3);--panel:#fffaf0;--text:var(--base02);--muted:var(--base00);
+  --line:#d7cfbb;--accent:var(--cyan);--shadow:0 8px 28px rgba(0,43,54,.10);
+  --ui-radius-sm:12px;--ui-radius-md:18px;--ui-radius-lg:24px;
+  --ui-control-size:44px;--ui-icon-size:22px;
+  --ui-border:1px solid rgba(88,110,117,.22);
+  --ui-nav-bg:rgba(253,246,227,.94);
+  --ui-card-bg:rgba(255,253,247,.92);
+  --ui-card-border:1px solid rgba(88,110,117,.18);
+  --ui-card-radius:20px;
+  --ui-card-padding:16px;
+  --ui-card-shadow:0 7px 22px rgba(0,43,54,.08);
+  --ui-button-height:44px;
+  --ui-button-radius:14px;
+  --ui-button-weight:750;
+  --ui-secondary-bg:var(--base2);
+  --ui-danger-bg:rgba(220,50,47,.09);
+  --ui-danger-border:1px solid rgba(220,50,47,.30);
+  --ui-toast-bg:var(--base02);
+  --ui-toast-color:var(--base3);
+  --ui-dialog-bg:var(--base3);
+  --ui-dialog-shadow:0 30px 80px rgba(0,43,54,.34)
+}
+*{box-sizing:border-box}
+html{background:var(--bg);overscroll-behavior:none}
+body{margin:0;color:var(--text);background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;min-height:100dvh;overscroll-behavior:none}
+button,input{font:inherit}button{touch-action:manipulation}
+.ui-line-icon{width:var(--ui-icon-size);height:var(--ui-icon-size);fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
