@@ -1,32 +1,22 @@
 {
   "id": "./",
-  "name": "PianoTrack",
-  "short_name": "PianoTrack",
-  "description": "ピアノの練習時間を記録・集計するタイマー",
-  "lang": "ja",
-  "start_url": "./index.html",
+  "name": "PianoTrack v2",
+  "short_name": "PianoTrack v2",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#fdf6e3",
-  "theme_color": "#002b36",
+  "theme_color": "#fdf6e3",
   "icons": [
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     }
   ]
 }
