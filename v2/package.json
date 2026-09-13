@@ -1,0 +1,1 @@
+{"name":"pianotrack-v2","version":"2.0.0","private":true,"scripts":{"test":"node --test test/piano-summary.test.cjs && node test/compat.cjs"},"devDependencies":{"jsdom":"30.0.1"}}
